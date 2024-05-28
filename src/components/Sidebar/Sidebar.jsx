@@ -6,7 +6,7 @@ function Sidebar() {
       <div className="w-64 bg-blue-800 h-screen px-4 py-2">
           <nav className="mt-3 text-white font-bold">
               <div className="mb-2 rounded">
-                  <Link to="/" className="flex items-center">
+                  <Link to="/react-charts" className="flex items-center">
                       {/* <img
                           src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
                           className="mr-3 h-12"
@@ -21,7 +21,7 @@ function Sidebar() {
                       <ul className="mt-3 text-white font-bold">
                           <li>
                               <NavLink
-                              to="/"
+                              to="/react-charts"
                                   className={({isActive}) =>
                                       `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 ${isActive ? 'text-orange-700': 'text-gray-700'} lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                   }
@@ -31,7 +31,7 @@ function Sidebar() {
                           </li>
                           <li>
                               <NavLink
-                              to="/about"
+                              to="/react-charts//about"
                                   className={({isActive}) =>
                                       `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 ${isActive ? 'text-orange-700': 'text-gray-700'} lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                   }

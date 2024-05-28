@@ -9,9 +9,9 @@ import About from './components/About/About.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Layout />}>
-      <Route path=""  element={<Home />}/>
-      <Route path="about"  element={<About />}/>
+    <Route path="/react-charts" element={<Layout />}>
+      <Route path="/react-charts"  element={<Home />}/>
+      <Route path="/react-charts/about"  element={<About />}/>
     </Route>
   ),
 )
